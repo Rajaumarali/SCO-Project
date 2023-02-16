@@ -1,0 +1,29 @@
+.headerContainer{
+    width: 1440px;
+    height: 114px;
+    display: flex;
+}
+.listImg{
+    
+     margin-left: 63.91px;
+     margin-top:40.5px ;
+     margin-bottom:53.5px ;
+}
+.scoHeaderLogo{
+    margin-left:618.66px;
+    margin-bottom: 44.03px;
+    margin-top: 37.6px;
+
+}
+.searchBoxDiv{
+    margin-left: 335px;
+    margin-top: 45px;
+    
+}
+.searchBox{
+    width: 223px;
+    height: 30.76px;
+    border: 1px;
+    border-color: gray;
+    border-radius: 20px;
+}
