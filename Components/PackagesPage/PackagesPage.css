@@ -1,0 +1,532 @@
+/* main division */
+/* this div contains all the other components e.g: header, body, footer */
+div.mainContainerPackagesPage{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    width: 100%;
+    height: 2925px;
+
+    background: #FFFFFF;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+/* header division */
+div.header{
+    position: absolute;
+    width: 100%;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: #FFFFFF;
+
+    z-index: 1;
+}
+img.List{
+    position: absolute;
+    left: 3%;
+}
+img.ScoLogo{
+    position: absolute;
+    left: 45%;
+}
+img.searchBar{
+    position: absolute;
+    left: 85%;
+}
+div.navBar{
+    position: absolute;
+    width: 100%;
+    height: 81px;
+    left: 0px;
+    top: 114px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: #007643;
+
+    z-index: 1;
+}
+h1.navBarText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 8px;
+    
+}
+img.icon4{
+    margin-right: 10px;
+}
+div.miniNavBar{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    top: 194px;
+
+    background: #3E4095;
+
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2.miniBarText{
+    /* position: absolute; */
+    /* width: 82px;
+    height: 29px;
+    left: 225px;
+    top: 203px; */
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+    color: #FFFFFF;
+}
+
+/* Body */
+div.rectangle6{
+    position: absolute;
+    width: 100%;
+    height: 573px;
+    left: 0px;
+    top: 240px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background: #FFFFFF;
+}
+img.netflixBack{
+    position:relative;
+    width: 100%;
+    height: 140%;
+    left: 0px; 
+    top: -40%;
+}
+img.scoSmartTvLogo{
+    position: absolute;
+    width: 350px;
+    height: 182.31px;
+    left: 15%;
+    top: 15%;
+
+    z-index: 1;
+}
+h1.text1{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+
+
+    color: #29166E;
+}
+img.smartTV{
+    position: absolute;
+    left: 50%;
+    top: -10%;
+
+    z-index: 1;
+}
+img.rectangle3{
+    position: absolute;
+    width: 34%;
+    height: 97%;
+    left: 66%;
+    top: -5%;
+}
+
+div.rectangle7{
+    position: absolute;
+    width: 29%;
+    height: 11%;
+    left: 12.4%;
+    top: 70%;
+
+    background: #00612E;
+    border-radius: 62px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+a.text2{
+    position: absolute;
+    width: 392px;
+    height: 50.3px;
+    left: 20%;
+    top: 5%;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    /* or 51px */
+
+
+    color: #FFFFFF;
+}
+img.icon1{
+    position: absolute;
+    left: 10%;
+    /* right: 12%; */
+    top: 27%;
+    /* bottom: 22.5%; */
+
+    /* border: 3px solid #FFFFFF; */
+}
+img.icon2{
+    position: absolute;
+    left: 10.75%;
+    /* right: 12%; */
+    top: 45.5%;
+    /* bottom: 22.5%; */
+}
+
+div.btnContainer{
+    position: absolute;
+    width: 100%;
+    height: 93px;
+    top: 833px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    z-index: 1;
+}
+button.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 8px;
+
+    /* position: absolute; */
+    width: 258px;
+    height: 73px;
+
+    background: #D99956;
+    border: none;
+    border-radius: 6px;
+
+    /* width: 127px;
+    height: 51px; */
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 160%;
+    /* or 51px */
+
+
+    /* 🔹 Solid / Standard / White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+div.packageMenuBtnContainer{
+    position: absolute;
+    width: 100%;
+    height: 93px;
+    top: 943px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    z-index: 1;
+}
+button.btnMenu{
+    position: absolute;
+    left: 225px;
+
+    width: 400px;
+    height: 52px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 160%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+
+    color: #007643;
+
+    background-color: white;
+    border: none;
+
+}
+img.plusIcon{
+    margin-top: 5px;
+}
+div.packageMenuContainer{
+    position: absolute;
+    width: 100%;
+    height: 1303.76px;
+    top: 1130px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.packageBoxContainer{
+    width: 100%;
+    height: 330.94px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#lastContainer{
+    justify-content: flex-start;
+}
+div.packageBox{
+    border: 3px solid rgb(226, 218, 218);
+    width: 300.95px;
+    height: 310.94px;
+    margin-left: 15px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#lastBox{
+    margin-left: 23.5%;
+}
+div.topDiv{
+    width: 100%;
+    height: 17%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+h2.heading1TopDiv{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #007643;
+}
+h1.heading2TopDiv{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+    margin-top: 24px;
+    margin-left: 10px;
+}
+div.middleDiv{
+    width: 100%;
+    height: 59%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.middleSubDiv{
+    width: 33.3%;
+    height: 99%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img.icon3{
+    width: 30%;
+    height: 30%;
+}
+img.icon3_1{
+    position: absolute;
+    /* width: 30%;
+    height: 30%; */
+
+    top: 121px;
+    left: 471px;
+}
+h1.text1MiddleDiv{    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* or 17px */
+    
+    text-align: center;
+    
+    color: #09B3F1;
+
+    margin-top: -8px;
+}
+h2.text2MiddleDiv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* or 17px */
+    
+    text-align: center;
+
+    margin-top: -10px;
+}
+
+div.bottomDiv{
+    width: 100%;
+    height: 24%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* foot */
+div.footer{
+    position: absolute;
+    width: 100%;
+    height: 457px;
+    left: 0px;
+    top: 2768px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #197745;
+}
+div.footerSubDiv_1{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+div.footerItemContainer{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+h1.footerTextHeader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* or 29px */
+    
+    color: #FFFFFF;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+p.footerText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 480;
+    font-size: 15px;
+    /* or 29px */
+    
+    color: #FFFFFF;
+
+    margin-bottom: -10px;
+    margin-left: 15%;
+}
+img.footerGroupIMG{
+    margin-bottom: 10px;
+    margin-right: 10%;
+}
+div.footerSubDiv_2{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+img.footerFrame1{
+    margin-left: -25%;
+}
+img.footerFrame2{
+    margin-bottom: 10px;
+    margin-right: 4%;
+}
