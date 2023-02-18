@@ -4,7 +4,7 @@
 }
 /*header sarts*/
 .headerContainer{
-    width: 1440px;
+    width: 100%;
     height: 114px;
     display: flex;
     position: absolute;
@@ -35,19 +35,19 @@
 } */
 .navBar{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 26px 60px;
-gap: 100px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 26px 60px;
+    gap: 100px;
 
-position: absolute;
-width: 1400px;
-height: 71px;
-left: -10px;
-top: 114px;
-z-index: 2;
-background: #007643;
-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 100%;
+    height: 71px;
+    left: -10px;
+    top: 114px;
+    z-index: 2;
+    background: #007643;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
 }
 .contentNavBar{
     height: 29px;
