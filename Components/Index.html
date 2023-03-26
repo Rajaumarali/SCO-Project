@@ -140,32 +140,60 @@
             </div>    
 
             <div class="bodyContainer">
-                <!-- <div> <img class="icon1" src="../Assets/Icon/Group 25.svg" alt="icon1" />
-                    <p class="icone1text">My SCO App</p>
-                </div>
-                <div> <img class="icon2" src="../Assets/Icon/Group 26.svg" alt="icon2" />
-                    <p class="icone2text">Recharge</p>
-                </div>
-                <div> <img class="icon3" src="../Assets/Icon/Group 27.svg" alt="icon3" />
-                    <p class="icone3text">Join SCO 4G</p>
-                </div>
-                <div><img class="icon7" src="../Assets/Icon/Group 28.svg" alt="icon4" />
-                    <p class="icone4text">Prepaid</p>
-                </div>
-                <div><img class="icon5" src="../Assets/Icon/Group 29.svg" alt="icon5" />
-                    <p class="icone5text">Postpaid</p>
-                </div>
-                <div><img class="icon6" src="../Assets/Icon/Group 30.svg" alt="icon6" />
-                    <p class="icone6text">Live Chat</p>
-                </div> -->
-                <img class="apps" src="../Assets/Images/Group 37.svg" alt="apps" />
+                <button class="btn_2">
+                    <img style="position :static; margin-top: 45px;"src="../Assets/Icon/11.svg" />
+                    <img style=" position:relative; margin-top: -20px;" src="../Assets/Icon/11.1.svg" /> 
+                </button>
 
+                <button class="btn_2">
+                    <img style="position :static; margin-top: 55px;"src="../Assets/Icon/12.svg" />
+                    <img style=" position:relative; margin-top: -5px;" src="../Assets/Icon/12.1.svg" /> 
+                </button>
+                
+                <button class="btn_2">
+                    <img style="position :static; margin-top: 45px;"src="../Assets/Icon/13.svg" />
+                    <img style=" position:relative; margin-top: -5px;" src="../Assets/Icon/13.1.svg" /> 
+                </button>
 
+                <button class="btn_2">
+                    <img style="position :static; margin-top: 45px;"src="../Assets/Icon/14.svg" />
+                    <img style=" position:relative; margin-top: -15px;" src="../Assets/Icon/14.1.svg" /> 
+                </button>
 
+                <button class="btn_2">
+                    <img style="position :static; margin-top: 45px;"src="../Assets/Icon/15.svg" />
+                    <img style=" position:relative; margin-top: -15px;" src="../Assets/Icon/15.1.svg" /> 
+                </button>
+
+                <button class="btn_2">
+                    <img style="position :static; margin-top: 55px;"src="../Assets/Icon/16.svg" />
+                    <img style=" position:relative; margin-top: -5px;" src="../Assets/Icon/16.1.svg" /> 
+                </button>
             </div>
+ 
+            
+
             <div class="cards">
-                <img class="card" src="../Assets/Images/Group 44.svg" alt="icon6" />
-                <p class="card">
+                <div class="cards1">
+                    <img src="../Assets/Images/Packages (1).svg" />
+                    <img src="../Assets/Images/text1.svg" />
+                    <div class="btnContainer_1">
+                        <button class="prev1" onclick="plusSlides1(-1)"><img src="../Assets/Icon/arrow_L.svg"/></button>
+                        <button class="next1" onclick="plusSlides1(1)"><img src="../Assets/Icon/arrow_R.svg"/></button>
+                    </div>
+                    <button style="margin-left: 25px;" class="btn_0"><img src="../Assets/Icon/Tooltip (3).svg"/></button>
+                </div>
+                <div class="slideshow-container1">
+                    <div class="mySlides1 fade1">
+                        <img style="margin-right: 40px;"src="../Assets/Icon/Group 39 (1).svg"/>
+                        <img src="../Assets/Icon/Group 40 (1).svg"/>
+                    </div>
+                    
+                    <div class="mySlides1 fade1">
+                        <img style="margin-right: 40px;" src="../Assets/Icon/Group 40 (1).svg"/>
+                        <img src="../Assets/Icon/Group 41 (1).svg"/>
+                    </div>                
+                </div>
             </div>
             <div class="heading">
                 <img class="check" src="../Assets/Images/4G Broadband Device 1.svg" alt="icon6" />
@@ -371,6 +399,31 @@ $(rightPaddle).on('click', function() {
 $(leftPaddle).on('click', function() {
 	$('.menu').animate( { scrollLeft: '0' }, scrollDuration);
 });
+                </script>
+
+                <script>   
+                    let slideIndex1 = 1;
+                    showSlides1(slideIndex1);
+    
+                    function plusSlides1(n1) {
+                        showSlides1(slideIndex1 += n1);
+                    }
+    
+                    function currentSlide1(n) {
+                        showSlides1(slideIndex1 = n1);
+                    }
+    
+                    function showSlides1(n1) {
+                        let q;
+                        let slides1 = document.getElementsByClassName("mySlides1");
+                        if (n1 > slides1.length) {slideIndex1 = 1}    
+                        if (n1 < 1) {slideIndex1 = slides1.length}
+                        for (q = 0; q < slides1.length; q++) {
+                            slides1[q].style.display = "none";  
+                        }
+                        
+                        slides1[slideIndex1-1].style.display = "block";  
+                    }
                 </script>
         
 

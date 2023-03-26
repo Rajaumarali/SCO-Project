@@ -709,6 +709,7 @@ a.navBarText {
   
   /* The dots/bullets/indicators */
 .dot {
+    margin-top: 25px;
     cursor: pointer;
     height: 13px;
     width: 13px;
@@ -747,7 +748,7 @@ a.navBarText {
     width: 100%;
     height: 105%;
     left: 0px;
-    top: -5%;
+    top: 3%;
 
 }
 .fourgLogo{
@@ -786,7 +787,7 @@ position: absolute;
 .couple{
     position: absolute;
     left: 65%;
-    top: 8%;
+    top: 16%;
 
     z-index: 1;
 }
@@ -795,7 +796,7 @@ img.rectangle3{
     width: 47%;
     height: 105%;
     left: 67%;
-    top: -5%;
+    top: 3%;
 }
 .custom-link{
     text-decoration: none;
